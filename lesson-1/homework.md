@@ -1,39 +1,45 @@
-4-Project:
-Project Name: Analyzing Job Demands in IT Roles
+Project 1: Sales Performance Dashboard
 
-Objective:
-  Analyze job demands for IT roles such as AI Architect, Machine Learning Specialist, 
-  Deep Learning Specialist, Data Scientist, Computer Scientist, Business Intelligence Analyst, 
-  Cloud Specialist, Web Developer,Software Developer, Mobile Developer, DevOps Engineer,
-  Help Desk and Desktop Support Professionals,  Cloud Administrator, Cyber Security Professional,
-  System Administrator, etc.
+Objective: Create a Power BI dashboard that provides insights into the sales performance of a company. The dashboard should include visualizations, data transformations, and formatting, ensuring it is user-friendly and interactive.
 
-Define Key Metrics and KPIs:
-     1_Total Number of Job Postings
-     2_Average Salary
-     3_Top Hiring Companies
-     4_Skills Required
-     5_Geographic Distribution
-     6_Growth Rate in Job Postings Over Time
-Data Generation Using chatGPT:
-    Use the following columns: Job ID, Job Title, Company, Location, Salary, Skills, 
-    Post Date, Job Description.
-Data Cleaning and Preparation:
-     1_Remove Duplicates: Ensure there are no duplicate job postings.
-     2_Handle Missing Values: Decide how to handle missing data (e.g., imputation, removal).
-     3_Standardize Formats: Ensure consistency in data formats (e.g., dates, job titles).
-Create Measures for:
-     to calculate Total Number of Job Postings,Average Salary,Growth Rate in Job Postings Over Time
-Create Visuals:
-     Bar Chart: Display the number of job postings by job title
-     Line Chart: Show the growth rate of job postings over time.
-     Pie Chart: Visualize the distribution of job postings by company
-     Map: Show the geographic distribution of job postings
- Interactive Elements:
-     Bookmarks: Use bookmarks to create different views of the data and allow users to switch between them.
-     Filter Pane: Customize the filter pane to allow users to filter the data by job title, location, and skills
-Data Source Generation Requirements:
-    Job Postings Data: Ensure there are at least 2,000 rows of data to provide 
-   a comprehensive analysis.
-   Columns: Job ID, Job Title, Company, Location, Salary, Skills, Post Date, 
-   Job Description
+Project Instructions:
+
+1. Data Import:
+    -Use an Excel or CSV dataset that includes the following columns:
+    Date,Product Name,Sales Amount,Salesperson,Region Units Sold
+
+    -Import this data into Power BI and clean it (e.g., remove duplicates,handle missing values).
+
+2.Data Transformation:
+    -In Power Query, transform the data:
+        Split the "Date" column into separate "Year" and "Month" columns.
+
+    -Merge "First Name" and "Last Name" columns if the dataset contains separate fields for salespeople's names.
+
+    -Apply necessary transformations to ensure consistency.
+
+3.Data Modeling:
+     -Create relationships between tables (if applicable). For example, if you have separate tables for Products, Salespeople, or Regions, link them using common keys.
+
+    -Create a calculated column to show Total Sales (e.g., Units Sold * Sales Amount).
+
+    -Create a measure to calculate the Average Sales Price.
+
+4.Visualization:
+     Build the following visuals:
+        - Bar Chart to show total sales per product.
+        - Line Chart to display monthly sales trends.
+         -Pie Chart or Donut Chart to show sales distribution by region.
+         -Table that shows the sales performance by salesperson with 
+          conditional  formatting to highlight top and bottom performers.
+         -Add slicers for filtering by region, salesperson, or year.
+
+5.Final Output:
+     Your final dashboard should provide clear insights into:
+         -Overall sales performance.
+         -Top-selling products and regions.
+         -Monthly sales trends.
+         -Sales performance by salesperson.
+
+
+Data source for 1-Project: Student should generate the needed data source for that project by using chatGPT or open source datasets.

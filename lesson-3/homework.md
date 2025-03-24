@@ -1,39 +1,33 @@
-4-Project:
-Project Name: Analyzing Job Demands in IT Roles
+2-Project: Advanced Sales Insights Dashboard
 
-Objective:
-  Analyze job demands for IT roles such as AI Architect, Machine Learning Specialist, 
-  Deep Learning Specialist, Data Scientist, Computer Scientist, Business Intelligence Analyst, 
-  Cloud Specialist, Web Developer,Software Developer, Mobile Developer, DevOps Engineer,
-  Help Desk and Desktop Support Professionals,  Cloud Administrator, Cyber Security Professional,
-  System Administrator, etc.
+Objective: Create a comprehensive Sales Performance Dashboard that showcases your understanding of Power BI concepts, including measures, calculated columns, aggregate functions, time intelligence functions, data modeling, KPIs, and visualizations.
 
-Define Key Metrics and KPIs:
-     1_Total Number of Job Postings
-     2_Average Salary
-     3_Top Hiring Companies
-     4_Skills Required
-     5_Geographic Distribution
-     6_Growth Rate in Job Postings Over Time
-Data Generation Using chatGPT:
-    Use the following columns: Job ID, Job Title, Company, Location, Salary, Skills, 
-    Post Date, Job Description.
-Data Cleaning and Preparation:
-     1_Remove Duplicates: Ensure there are no duplicate job postings.
-     2_Handle Missing Values: Decide how to handle missing data (e.g., imputation, removal).
-     3_Standardize Formats: Ensure consistency in data formats (e.g., dates, job titles).
-Create Measures for:
-     to calculate Total Number of Job Postings,Average Salary,Growth Rate in Job Postings Over Time
-Create Visuals:
-     Bar Chart: Display the number of job postings by job title
-     Line Chart: Show the growth rate of job postings over time.
-     Pie Chart: Visualize the distribution of job postings by company
-     Map: Show the geographic distribution of job postings
- Interactive Elements:
-     Bookmarks: Use bookmarks to create different views of the data and allow users to switch between them.
-     Filter Pane: Customize the filter pane to allow users to filter the data by job title, location, and skills
-Data Source Generation Requirements:
-    Job Postings Data: Ensure there are at least 2,000 rows of data to provide 
-   a comprehensive analysis.
-   Columns: Job ID, Job Title, Company, Location, Salary, Skills, Post Date, 
-   Job Description
+Project Requirements:
+
+1_Data Preparation:
+     -Use the AdventureWorks2019 data tables. If you don't have them installed, 
+      please install them on your SQL Server.
+     -Load necessary tables into Power BI (e.g., Sales, Products, Customers, Date).
+2_Data Modeling:
+     -Create relationships between tables (e.g., Sales and Products, Sales and Customers).
+     -Ensure referential integrity and correct relationship cardinality.
+3_Calculated Columns:
+     -Create a calculated column for Profit in the Sales table: Profit = [SalesAmount] - [Cost]
+     -Create a calculated column for Full Name in the Customers table: Full Name = [FirstName] & " " & [LastName].
+4_Measures:
+     -Create a measures for:Total Sales,Total Profit,Total Quantity Sold and  Average Sales Per Customer
+5_Time Intelligence:
+     -Create a measures for:Sales YTD,Sales Last Year,Sales Growth
+6_Visualizations:
+      -Create a bar chart to display Total Sales by Product Category
+      -Create a line chart to show Sales YTD over months.
+      -Create a pie chart to visualize the Market Share by Region
+7_KPIs:
+      -Create KPI visuals for Total Sales, Total Profit, and Sales Growth.
+      -Set targets for each KPI and include trend indicators.
+8_Dashboard Design:
+      -Arrange visuals in a clear, logical manner.
+      -Add slicers for Date, Product Category, and Region to allow interactive filtering.
+
+
+Attention: Generate AdventureWorks2019 data tables by AI or download from internet.

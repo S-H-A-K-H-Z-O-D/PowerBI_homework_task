@@ -1,39 +1,17 @@
-4-Project:
-Project Name: Analyzing Job Demands in IT Roles
+Task 1:
 
-Objective:
-  Analyze job demands for IT roles such as AI Architect, Machine Learning Specialist, 
-  Deep Learning Specialist, Data Scientist, Computer Scientist, Business Intelligence Analyst, 
-  Cloud Specialist, Web Developer,Software Developer, Mobile Developer, DevOps Engineer,
-  Help Desk and Desktop Support Professionals,  Cloud Administrator, Cyber Security Professional,
-  System Administrator, etc.
+    1_Download the 5 Excel files used in Lesson 5 and load them into Power BI Desktop.
+    2_Create Data Model: Set up the data model for your project
+    3_Create Sample Report: Use different charts (Bar chart, Line graph, Pie chart, etc.) 
+    to visualize the data.
+    4_Create Measures for to Calculate Total_SalesAmount
+    All_Managers, and other relevant metrics.
+    5_Design: Customize the charts and design the background of the report.
 
-Define Key Metrics and KPIs:
-     1_Total Number of Job Postings
-     2_Average Salary
-     3_Top Hiring Companies
-     4_Skills Required
-     5_Geographic Distribution
-     6_Growth Rate in Job Postings Over Time
-Data Generation Using chatGPT:
-    Use the following columns: Job ID, Job Title, Company, Location, Salary, Skills, 
-    Post Date, Job Description.
-Data Cleaning and Preparation:
-     1_Remove Duplicates: Ensure there are no duplicate job postings.
-     2_Handle Missing Values: Decide how to handle missing data (e.g., imputation, removal).
-     3_Standardize Formats: Ensure consistency in data formats (e.g., dates, job titles).
-Create Measures for:
-     to calculate Total Number of Job Postings,Average Salary,Growth Rate in Job Postings Over Time
-Create Visuals:
-     Bar Chart: Display the number of job postings by job title
-     Line Chart: Show the growth rate of job postings over time.
-     Pie Chart: Visualize the distribution of job postings by company
-     Map: Show the geographic distribution of job postings
- Interactive Elements:
-     Bookmarks: Use bookmarks to create different views of the data and allow users to switch between them.
-     Filter Pane: Customize the filter pane to allow users to filter the data by job title, location, and skills
-Data Source Generation Requirements:
-    Job Postings Data: Ensure there are at least 2,000 rows of data to provide 
-   a comprehensive analysis.
-   Columns: Job ID, Job Title, Company, Location, Salary, Skills, Post Date, 
-   Job Description
+Task 2:
+
+    You should learn the following essential DAX functions and 
+    practice using them on your local setup, one by one:
+    1_Aggregation Functions:(SUM,COUNT,AVERAGE,MIN,MAX)
+    2_Logical Functions:(IF,SWITCH,FALSE and AND)
+    3_Filter Functions:(CALCULATE,CALCULATETABLE,ALL,ALLEXCEPT)

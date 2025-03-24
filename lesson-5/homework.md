@@ -1,39 +1,32 @@
-4-Project:
-Project Name: Analyzing Job Demands in IT Roles
+3-Project:
+Objective:Create a Power BI dashboard to analyze sales performance using measures, KPI visuals, and filters.
 
-Objective:
-  Analyze job demands for IT roles such as AI Architect, Machine Learning Specialist, 
-  Deep Learning Specialist, Data Scientist, Computer Scientist, Business Intelligence Analyst, 
-  Cloud Specialist, Web Developer,Software Developer, Mobile Developer, DevOps Engineer,
-  Help Desk and Desktop Support Professionals,  Cloud Administrator, Cyber Security Professional,
-  System Administrator, etc.
+create measures for:
+   1_Total Sales
+   2_Sales YTD (Year-to-Date)
+   3_Sales Last Year
+   4_Year-over-Year Sales Growth
 
-Define Key Metrics and KPIs:
-     1_Total Number of Job Postings
-     2_Average Salary
-     3_Top Hiring Companies
-     4_Skills Required
-     5_Geographic Distribution
-     6_Growth Rate in Job Postings Over Time
-Data Generation Using chatGPT:
-    Use the following columns: Job ID, Job Title, Company, Location, Salary, Skills, 
-    Post Date, Job Description.
-Data Cleaning and Preparation:
-     1_Remove Duplicates: Ensure there are no duplicate job postings.
-     2_Handle Missing Values: Decide how to handle missing data (e.g., imputation, removal).
-     3_Standardize Formats: Ensure consistency in data formats (e.g., dates, job titles).
-Create Measures for:
-     to calculate Total Number of Job Postings,Average Salary,Growth Rate in Job Postings Over Time
-Create Visuals:
-     Bar Chart: Display the number of job postings by job title
-     Line Chart: Show the growth rate of job postings over time.
-     Pie Chart: Visualize the distribution of job postings by company
-     Map: Show the geographic distribution of job postings
- Interactive Elements:
-     Bookmarks: Use bookmarks to create different views of the data and allow users to switch between them.
-     Filter Pane: Customize the filter pane to allow users to filter the data by job title, location, and skills
-Data Source Generation Requirements:
-    Job Postings Data: Ensure there are at least 2,000 rows of data to provide 
-   a comprehensive analysis.
-   Columns: Job ID, Job Title, Company, Location, Salary, Skills, Post Date, 
-   Job Description
+Create KPI visuals for:
+   1_Bar Chart: Display Total Sales by Product Category
+   2_Line Chart: Show Sales YTD over months
+   3_Pie Chart: Visualize the distribution of Sales by Region
+
+Using Filters:
+   1_Visual-Level Filters
+   2_Page-Level Filters
+   3_Report-Level Filters
+
+Guidance on Data Generation:
+    Required Columns:
+      1_Sales Table: SalesID, ProductID, CustomerID, SalesAmount, 
+        Quantity, SalesDate
+      2_Products Table: ProductID, ProductName, Category, Price
+      3_Customers Table: CustomerID, CustomerName, Country
+      4_Date Table: Date, Year, Month, Day
+      
+Data Requirements:
+      1_Ensure the Sales table has at least 1,000 rows
+       2_Ensure the Products table has 100 rows
+       3_Ensure the Customers table has 500 rows
+       4_Ensure the Date table covers a full year
