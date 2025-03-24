@@ -9,7 +9,7 @@ Define Key Metrics and KPIs:
     3_Top Hiring Companies
     4_Skills Required
     5_Geographic Distribution
-    6_Growth Rate in Job Postings Over Time
+    6_Growth Rate in Job Postings Over Time 
 
 Data Generation using chatGPT(or any AI tool):
     Use the following columns: Job ID, Job Title, Company, Location, Salary, Skills, 
