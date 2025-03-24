@@ -4,7 +4,7 @@ Objective: Create a Power BI dashboard that provides insights into the sales per
 
 Project Instructions:
 
-1. Data Import:
+1.Data Import:
     -Use an Excel or CSV dataset that includes the following columns:
     Date,Product Name,Sales Amount,Salesperson,Region Units Sold
 
