@@ -1,4 +1,4 @@
-2-Project: Advanced Sales Insights Dashboard
+# 2-Project: Advanced Sales Insights Dashboard
 
 Objective: Create a comprehensive Sales Performance Dashboard that showcases your understanding of Power BI concepts, including measures, calculated columns, aggregate functions, time intelligence functions, data modeling, KPIs, and visualizations.
 

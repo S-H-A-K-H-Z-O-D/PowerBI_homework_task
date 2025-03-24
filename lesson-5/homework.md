@@ -1,5 +1,4 @@
-3-Project:
-Objective:Create a Power BI dashboard to analyze sales performance using measures, KPI visuals, and filters.
+# 3-Project: Create a Power BI dashboard to analyze sales performance using measures, KPI visuals, and filters.
 
 create measures for:
    1_Total Sales
@@ -24,7 +23,7 @@ Guidance on Data Generation:
       2_Products Table: ProductID, ProductName, Category, Price
       3_Customers Table: CustomerID, CustomerName, Country
       4_Date Table: Date, Year, Month, Day
-      
+
 Data Requirements:
       1_Ensure the Sales table has at least 1,000 rows
        2_Ensure the Products table has 100 rows

@@ -1,4 +1,4 @@
-Project 1: Sales Performance Dashboard
+# Project 1: Sales Performance Dashboard
 
 Objective: Create a Power BI dashboard that provides insights into the sales performance of a company. The dashboard should include visualizations, data transformations, and formatting, ensuring it is user-friendly and interactive.
 
